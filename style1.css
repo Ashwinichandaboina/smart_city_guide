@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.cart, .menu, .reviews {
+    margin: 20px 0;
+}
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+.cart li {
+    margin-bottom: 10px;
+}
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.remove-btn {
+    color: red;
+    text-decoration: none;
+}
+.review {
+    margin-bottom: 20px;
+}
+.header {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.header a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+.header a:hover {
+    color: #4CAF50;
+}
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.menu-item form {
+    display: flex;
+    align-items: center;
+}
+.menu-item input[type="number"] {
+    width: 50px;
+    margin-left: 10px;
+    padding: 5px;
+}
+.menu-item .btn {
+    background-color: #2196F3;
+    margin-left: 10px;
+}
+.order-confirmation {
+    padding: 20px;
+    background-color: #e7f5e7;
+    border: 1px solid #4CAF50;
+}
+.thank-you {
+    font-size: 18px;
+    font-weight: bold;
+}
+.order-confirmation ul {
+    list-style-type: none;
+    padding: 0;
+}
+.order-confirmation li {
+    margin-bottom: 5px;
+}
+
